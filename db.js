@@ -11,7 +11,7 @@ host: "@dpg-d4f4mm8dl3ps73cmflog-a.oregon-postgres.render.com",
 dialect: "postgres",
 port:"5432",
 dialectOptions: {
-    ssl{require: true ,rejectUnauthorized: false
+    ssl: {require: true , rejectUnauthorized: false}
 }
 
 
